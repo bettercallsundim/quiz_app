@@ -1,0 +1,53 @@
+.main {
+ height: 100vh;
+ background-color: cornflowerblue;
+ user-select: none;
+}
+.ques span {
+ font-weight: 600;
+ font-size: 1.3rem;
+}
+.ans-list li {
+ background-color: rgb(212, 226, 246);
+ color: dodgerblue;
+ font-weight: bold;
+ margin-bottom: 1rem;
+ list-style-position: inside;
+ width: 400px;
+ padding: .6rem 1.2rem;
+ border-radius: 20px;
+ transition: all 0.2s ease-in;
+}
+.ans-list li:hover {
+ color: gray;
+}
+.ans-list {
+ margin-top: 1rem;
+ padding: 0rem;
+ width: 100%;
+}
+
+.transi {
+ transition: all 0.3s ease-in-out;
+}
+li.right-ans{
+  background-color: rgb(185, 239, 185);
+  color: green;
+}
+li.right-ans:hover{
+  color: gray;
+  background-color: rgb(185, 239, 185);
+}
+li.wrong-ans:hover{
+  color: white;
+  background-color: rgb(247, 182, 190);
+}
+li.wrong-ans{
+  background-color: rgb(247, 182, 190);
+  color: rgb(249, 45, 76);
+}
+.timeline{
+  height: 3px;
+  width: 0%;
+  background-color: red;
+}
