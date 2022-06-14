@@ -13,10 +13,12 @@
  font-weight: bold;
  margin-bottom: 1rem;
  list-style-position: inside;
- width: 400px;
+ /* width:clamp(200px,400px,400px) ; */
+ width: 100%;
  padding: .6rem 1.2rem;
  border-radius: 20px;
  transition: all 0.2s ease-in;
+
 }
 .ans-list li:hover {
  color: gray;
@@ -25,8 +27,11 @@
  margin-top: 1rem;
  padding: 0rem;
  width: 100%;
+ display: block;
 }
-
+.ans{
+  width: 60%;
+}
 .transi {
  transition: all 0.3s ease-in-out;
 }
