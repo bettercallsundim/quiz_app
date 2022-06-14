@@ -46,11 +46,11 @@ strbtn.onclick = function () {
 function showQue() {
  const qelm = `
 <div class="qitem mx-auto mt-4 rounded-4 board bg-white d-flex align-items-start justify-content-center flex-column p-3">
-<div class="tools d-flex justify-content-between w-100">
-  <p class="fw-bold bg-secondary text-white px-3 rounded-5">${data[x].qnum} of ${data.length} Questions.</p>
-  <div class="timer">
+<div class="tools d-flex justify-content-between align-items-center w-100 mb-2">
+  <p class="mb-0 fw-bold bg-secondary text-white px-3 rounded-5">${data[x].qnum} of ${data.length} Questions.</p>
+  <div class="timer d-flex flex-column flex-sm-row ">
     <span class="fw-bold bg-danger text-white px-2 rounded-3">Time Left :</span>
-    <span class="fw-bold bg-info text-white px-2 rounded-3 tls">00:15s</span>
+    <span class="fw-bold bg-info text-white px-2 rounded-3 flex-grow-0 text-center tls">00:15s</span>
   </div>
 </div>
 <div class="timeline"></div>
